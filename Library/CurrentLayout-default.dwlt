@@ -114,7 +114,7 @@ MonoBehaviour:
   m_MinSize: {x: 685, y: 344}
   m_MaxSize: {x: 12010, y: 8044}
   vertical: 0
-  controlID: 53
+  controlID: 114
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -295,10 +295,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 298.4
-    y: 73.6
-    width: 916
-    height: 437
+    x: 302.4
+    y: 80.8
+    width: 908
+    height: 428
   m_ViewDataDictionary: {fileID: 0}
   m_VSyncEnabled: 0
   m_MaximizeOnPlay: 0
@@ -311,10 +311,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -458
-    m_HBaseRangeMax: 458
-    m_VBaseRangeMin: -210
-    m_VBaseRangeMax: 210
+    m_HBaseRangeMin: -454
+    m_HBaseRangeMax: 454
+    m_VBaseRangeMin: -205.5
+    m_VBaseRangeMax: 205.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -332,25 +332,25 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 17
-      width: 916
-      height: 420
+      width: 908
+      height: 411
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 458, y: 210}
+    m_Translation: {x: 454, y: 205.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -458
-      y: -210
-      width: 916
-      height: 420
+      x: -454
+      y: -205.5
+      width: 908
+      height: 411
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_TargetTexture: {fileID: 0}
   m_CurrentColorSpace: 0
-  m_LastWindowPixelSize: {x: 916, y: 437}
+  m_LastWindowPixelSize: {x: 1135, y: 535}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 00000000000000000000
@@ -384,9 +384,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: ae2f0000
-      m_LastClickedID: 12206
-      m_ExpandedIDs: 6afbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 6afbffffa62f0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -479,11 +479,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.16158326, y: 0.013317713, z: -0.0021808604, w: 0.9867673}
     speed: 2
-    m_Value: {x: -0.16158326, y: -0.013317713, z: 0.0021808604, w: -0.9867673}
+    m_Value: {x: 0.16158319, y: 0.013317706, z: -0.0021808594, w: 0.9867668}
   m_Size:
-    m_Target: 2.8578837
+    m_Target: 9.457887
     speed: 2
-    m_Value: 2.8578837
+    m_Value: 9.457887
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -620,10 +620,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 529.60004
-    width: 1216
-    height: 256
+    x: 7.2000003
+    y: 527.2
+    width: 1205
+    height: 251
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -638,20 +638,20 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Animations/branches
+  - Assets/Scripts
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\tdsul\Documents\Unity Projects\walk_sim_doOver
+  m_LastProjectPath: C:\Users\tdsul\Documents\Unity Projects\GameStudio1_PhysicsGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 79}
-    m_SelectedIDs: 60330000
-    m_LastClickedID: 13152
-    m_ExpandedIDs: 
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: c0300000
+    m_LastClickedID: 12480
+    m_ExpandedIDs: 00000000982c000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -704,8 +704,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 701dffff
-    m_LastClickedInstanceID: -58000
+    m_SelectedInstanceIDs: a62f0000
+    m_LastClickedInstanceID: 12198
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300006c3800002a3100004a310000565200005452000088aa0000b04f000040530000e0400000f2330000
     m_RenameOverlay:
@@ -789,7 +789,7 @@ MonoBehaviour:
   m_ViewDataDictionary: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -20058
+  m_LastSelectedObjectID: 12198
 --- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -827,4 +827,4 @@ MonoBehaviour:
     m_PrefName: Preview_InspectorPreview
   m_PreviewWindow: {fileID: 0}
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 190
+  m_LastVerticalScrollValue: 177
