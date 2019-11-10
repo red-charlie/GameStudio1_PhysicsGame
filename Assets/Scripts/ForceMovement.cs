@@ -21,19 +21,19 @@ public class ForceMovement : MonoBehaviour
     {
         if (Input.GetKey("a"))
         {
-            rigidbody.AddForce(-10*deltaX);
+            rigidbody.AddForceAtPosition(-deltaX, transform.position + Vector3.up*0.2f);
         }
         if (Input.GetKey("d"))
         {
-            rigidbody.AddForce(10*deltaX);
+            rigidbody.AddForceAtPosition(deltaX, transform.position + Vector3.up * 0.2f);
         }
         if (Input.GetKey("w"))
         {
-            rigidbody.AddForce(deltaZ);
+            rigidbody.AddForceAtPosition(deltaZ, transform.position + Vector3.up * 0.2f);
         }
         if (Input.GetKey("s"))
         {
-            rigidbody.AddForce(-deltaZ);
+            rigidbody.AddForceAtPosition(-deltaZ, transform.position + Vector3.up * 0.2f);
         }
     }
 }
