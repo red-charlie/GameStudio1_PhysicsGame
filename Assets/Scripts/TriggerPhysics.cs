@@ -13,7 +13,7 @@ public class TriggerPhysics : MonoBehaviour
     void Start()
     {
         blob = GameObject.FindGameObjectWithTag("avatar");
-        rigid = blob.GetComponent<Rigidbody>();
+        rigid = blob.GetComponentInParent<Rigidbody>();
         cloth = blob.GetComponent<Cloth>();
         floorPush = new Vector3(0.0f, 9.81f, 0.0f);
         vel = Vector3.zero;
@@ -30,18 +30,19 @@ public class TriggerPhysics : MonoBehaviour
     {
         //vel = new Vector3(0, -rigid.velocity.y, 0);
     }
-
+    
     private void OnTriggerEnter(Collider other)
     {
         vel = new Vector3(0, -rigid.velocity.y, 0);
         rigid.AddForce(vel, ForceMode.VelocityChange);
     }
+    
     void OnTriggerStay(Collider other)
     {
         vel = new Vector3(0, -rigid.velocity.y, 0);
-        rigid.AddForce(vel, ForceMode.VelocityChange);
-        rigid.AddForce(floorPush, ForceMode.Force);
-        //rigid.AddForceAtPosition(floorPush/(blob.vertexCount), rand);
+       rigid.AddForce(vel, ForceMode.VelocityChange);
+       rigid.AddForce(floorPush, ForceMode.Force);
+       //rigid.AddForceAtPosition(floorPush/(blob.vertexCount), rand);
         cloth.externalAcceleration = floorPush;
     }
 
